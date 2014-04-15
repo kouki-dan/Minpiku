@@ -1,0 +1,167 @@
+.clear{
+	clear:both;
+}
+
+#top{
+width:910px;
+height:520px;
+}
+
+#canvas{
+width:750px;
+height:510px;
+float:left;
+background: rgb(234,239,181); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(234,239,181,1) 0%, rgba(225,233,160,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,239,181,1)), color-stop(100%,rgba(225,233,160,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(234,239,181,1) 0%,rgba(225,233,160,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(234,239,181,1) 0%,rgba(225,233,160,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(234,239,181,1) 0%,rgba(225,233,160,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(234,239,181,1) 0%,rgba(225,233,160,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaefb5', endColorstr='#e1e9a0',GradientType=0 ); /* IE6-9 */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#theme{
+width:750px;
+height:20px;
+}
+
+#canvasMain{
+width:640px;
+height:480px;
+float:left;
+border : 3px solid #949494;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background: #ffffff;
+-webkit-user-select:none;
+-moz-user-select:none;
+user-select:none;
+cursor:crosshair
+}
+
+#canvasTool{
+width:100px;
+height:480px;
+float:left;
+border : 2px solid #949494;
+background: rgb(252,255,244); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(252,255,244,1) 0%, rgba(233,233,206,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(252,255,244,1)), color-stop(100%,rgba(233,233,206,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* IE10+ */
+background: linear-gradient(135deg,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#member{
+width:150px;
+height:420px;
+margin: 0;
+padding: 0;
+float:left;
+
+}
+
+#member ul{
+list-style: none;
+margin: 0;
+padding: 0;
+border-top: 1px solid #CCC;
+}
+
+#member li{
+list-style:none;
+font-size:18px;
+margin: 0;
+padding: 0;
+border : 1px solid #000000;
+border-left : 10px solid #000000;
+width : 150px;
+height:50px;
+overflow:hidden;
+}
+
+#bottom{
+width:920px;
+}
+
+#serverLog{
+width:600px;
+height:120px;
+margin: 0;
+padding: 0;
+background: #f5f5f5;
+border: 1px solid #ccc;
+border-right: 1px solid #fff;
+border-bottom: 1px solid #353fff535;
+float:left;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+overflow:scroll;
+}
+
+#chat{
+margin: 0;
+padding: 0;
+float:left;
+}
+
+#chatResult{
+width:300px;
+height:100px;
+background: #f5f5f5;
+border: 1px solid #ccc;
+border-right: 1px solid #fff;
+border-bottom: 1px solid #353fff535;
+margin: 0;
+padding: 0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+overflow:scroll;
+}
+
+input.chatText{
+	width:250px;
+}
+
+button.button {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #050505;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#8f8f8f);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffff),
+		to(#8f8f8f));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #949494;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
