@@ -15,8 +15,6 @@ var Canvas = function(){
   //dxとdyは、mainCanvasに表示する左上の座標
   this.dx = 0;
   this.dy = 0;
-  
-
 
 }
 Canvas.prototype.drawPath = function(path){
